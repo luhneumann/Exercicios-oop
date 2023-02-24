@@ -1,10 +1,10 @@
+package Exercicio1;
+
 public class Employee {
 
     String name;
     double grossSalary;
     double tax;
-
-
 
     public double NetSalary() {
         return grossSalary - tax;

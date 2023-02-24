@@ -1,3 +1,5 @@
+package Exercicio1;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -14,7 +16,7 @@ public class Main {
         employee.grossSalary = sc.nextDouble();
         System.out.print("Tax: ");
         employee.tax = sc.nextDouble();
-        System.out.println("Employee: " + employee);
+        System.out.println("Exercicio1.Employee: " + employee);
 
         System.out.println("Which percentage to increase salary? ");
         double percentage = sc.nextDouble();
